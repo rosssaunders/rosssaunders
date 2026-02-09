@@ -1,27 +1,22 @@
-# Hey, I'm Ross 👋
+## Hi, I'm Ross 👋
 
-Software engineer with a thing for low-latency systems, PostgreSQL internals, and crypto market infrastructure. Mostly writing Rust and C++ these days.
+I build high-performance systems at the intersection of databases, trading infrastructure, and developer tooling. Most of my work is in Rust and PostgreSQL.
 
-## Projects
+### What I'm working on
 
-### 🐘 PostgreSQL & Databases
-| Project | Description |
-|---------|-------------|
-| [**postrust**](https://github.com/rosssaunders/postrust) | PostgreSQL-compatible SQL engine written in Rust — runs in the browser via WASM |
-| [**pg_deribit**](https://github.com/rosssaunders/pg_deribit) | PostgreSQL wrapper for the Deribit API, built on Omnigres |
+- **[Postrust](https://github.com/rosssaunders/postrust)** — a PostgreSQL-compatible SQL engine written from scratch in Rust. Parses and executes real SQL, supports window functions, CTEs, JSON/JSONB, and runs in the browser via WASM. [Try it live →](https://rosssaunders.github.io/postrust)
 
-### 📈 Crypto & Trading
-| Project | Description |
-|---------|-------------|
-| [**ccrxt**](https://github.com/rosssaunders/ccrxt) | High-performance Rust library for crypto exchange APIs — REST, WebSocket, designed for HFT |
-| [**coincise**](https://github.com/rosssaunders/coincise) | LLM-friendly versions of crypto exchange API docs |
+- **[ccrxt](https://github.com/rosssaunders/ccrxt)** — a Rust library for low-latency access to cryptocurrency exchange APIs. REST, WebSocket, strict rate limiting, designed for HFT. Supports major venues including Binance, Coinbase, Kraken, Deribit, and more.
 
-### 🤖 AI & Developer Tools
-| Project | Description |
-|---------|-------------|
-| [**distillery**](https://github.com/rosssaunders/distillery) | Distill PR diffs into reviewable narratives — built for the AI code review era |
-| [**pr-copilot**](https://github.com/rosssaunders/pr-copilot) | Interactive PR review agent powered by the GitHub Copilot SDK |
+- **[pg_deribit](https://github.com/rosssaunders/pg_deribit)** — query the Deribit crypto derivatives API directly from PostgreSQL. Built on [Omnigres](https://omnigres.com).
 
----
+- **[coincise](https://github.com/rosssaunders/coincise)** — LLM-friendly versions of crypto exchange API documentation. Making exchange APIs accessible to AI coding assistants.
 
-<sub>🛠️ Built with Rust, PostgreSQL, and unhealthy amounts of caffeine</sub>
+### Developer tools
+
+- **[distillery](https://github.com/rosssaunders/distillery)** — distill PR diffs into reviewable narratives, built for the AI code review era
+- **[pr-copilot](https://github.com/rosssaunders/pr-copilot)** — interactive PR review agent powered by the GitHub Copilot SDK
+
+### Background
+
+I've spent years building low-latency trading systems and have a deep interest in database internals — which is why I'm building a Postgres engine from scratch. I believe the best way to understand something is to build it.
